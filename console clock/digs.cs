@@ -213,7 +213,7 @@ namespace console_clock
         {
             int oldx = Console.CursorLeft;
             int oldy = Console.CursorTop;
-            echo(" .. .. ", color, x , y);
+            echo(" ## ## ", color, x , y);
             echo("#     .", color, x , y+1);
             echo("#     .", color, x , y+2);
             echo(" ## ## ", color, x , y+3);
@@ -261,7 +261,7 @@ namespace console_clock
             echo(" ## ## ", color, x , y+3);
             echo(".     #", color, x , y+4);
             echo(".     #", color, x , y+5);
-            echo(" .. .. ", color, x , y+6);
+            echo(" ## ## ", color, x , y+6);
             Console.SetCursorPosition(oldx, oldy);
         }
     }
